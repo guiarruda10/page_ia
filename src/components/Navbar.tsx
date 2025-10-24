@@ -47,7 +47,7 @@ const Navbar = () => {
             <span className="text-gradient">IA na Prática</span>
           </div>
 
-          {/* Desktop Menu */}
+          {/* Menu desktop */}
           <div className="hidden md:flex items-center gap-8">
             {menuItems.map((item) => (
               <button
@@ -67,7 +67,7 @@ const Navbar = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Botão mobile */}
           <button
             className="md:hidden p-2 text-foreground hover:text-primary transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -81,7 +81,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Menu mobile */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-b border-primary/20">
           <div className="container px-4 py-4 space-y-3">

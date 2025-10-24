@@ -45,7 +45,7 @@ const Services = () => {
       ></div>
 
       <div className="container relative z-10 px-4 mx-auto">
-        {/* Section Header */}
+        {/* Cabeçalho da seção */}
         <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gradient">Como Atuamos</span>
@@ -56,7 +56,7 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Services Grid */}
+        {/* Grid de serviços */}
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;

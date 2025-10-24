@@ -12,7 +12,7 @@ import techBg from "@/assets/tech-bg.jpg";
 const Contact = () => {
   return (
     <section className="py-24 relative overflow-hidden bg-gradient-to-b from-secondary/5 to-white backdrop-blur-sm">
-      {/* Background */}
+      {/* Imagem de fundo */}
       <div
         className="absolute inset-0 z-0 opacity-20"
         style={{
@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/90 to-background/70"></div>
       </div>
 
-      {/* Floating Elements */}
+      {/* Elementos flutuantes */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-primary/20 rounded-full blur-3xl animate-float"></div>
       <div
         className="absolute bottom-20 right-10 w-40 h-40 bg-secondary/20 rounded-full blur-3xl animate-float"
