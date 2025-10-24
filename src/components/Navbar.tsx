@@ -32,16 +32,16 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/90 backdrop-blur-xl border-b border-primary/20 shadow-lg shadow-primary/10"
-          : "bg-transparent"
+        isScrolled || isMobileMenuOpen
+          ? "bg-white border-b border-primary/20 shadow-lg"
+          : "bg-transparent md:bg-transparent bg-white"
       }`}
     >
       <div className="container px-4 mx-auto">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div
-            className="text-2xl font-bold cursor-pointer"
+            className="text-xl md:text-2xl font-bold cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
             <span className="text-gradient">IA na Prática</span>
@@ -69,13 +69,13 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-foreground"
+            className="md:hidden p-2 text-foreground hover:text-primary transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-5 h-5" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-5 h-5" />
             )}
           </button>
         </div>
@@ -83,8 +83,8 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white/95 backdrop-blur-xl border-b border-primary/20 animate-fade-in">
-          <div className="container px-4 py-6 space-y-4">
+        <div className="md:hidden bg-white border-b border-primary/20">
+          <div className="container px-4 py-4 space-y-3">
             {menuItems.map((item) => (
               <button
                 key={item.id}
@@ -96,7 +96,7 @@ const Navbar = () => {
             ))}
             <Button
               onClick={() => scrollToSection("contact")}
-              className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
+              className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 mt-2"
             >
               Contato
             </Button>

@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-ai.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-secondary/5">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-secondary/5 pt-16 md:pt-0">
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0"
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-8xl md:text-8xl lg:text-8xl font-bold leading-tight">
+          <h1 className="text-7xl sm:text-8xl md:text-8xl lg:text-8xl font-bold leading-tight">
             <span className="text-gradient animate-float">
               Vamos por a IA na prática no seu negócio
             </span>
