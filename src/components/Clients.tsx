@@ -126,7 +126,7 @@ const Clients = () => {
   }, [api]);
 
   return (
-    <section className="py-16 relative overflow-hidden bg-gradient-to-b from-muted/20 to-background">
+    <section className="py-16 relative overflow-hidden bg-gradient-to-b from-primary/5 to-white backdrop-blur-sm">
       <div className="container relative z-10 px-4 mx-auto">
         {/* Cabeçalho da seção aprimorado */}
         <div className="text-center max-w-4xl mx-auto mb-12 md:mb-20 animate-fade-in">

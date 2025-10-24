@@ -36,7 +36,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-background to-muted/20">
+    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-white to-primary/5 backdrop-blur-sm">
       {/* Decorative Elements */}
       <div className="absolute top-1/4 -left-20 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-float"></div>
       <div

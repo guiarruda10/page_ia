@@ -11,7 +11,7 @@ import techBg from "@/assets/tech-bg.jpg";
 
 const Contact = () => {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-secondary/5 to-white backdrop-blur-sm">
       {/* Background */}
       <div
         className="absolute inset-0 z-0 opacity-20"

@@ -33,7 +33,7 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-background/80 backdrop-blur-xl border-b border-border/50 shadow-lg shadow-primary/5"
+          ? "bg-white/90 backdrop-blur-xl border-b border-primary/20 shadow-lg shadow-primary/10"
           : "bg-transparent"
       }`}
     >
@@ -83,7 +83,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border/50 animate-fade-in">
+        <div className="md:hidden bg-white/95 backdrop-blur-xl border-b border-primary/20 animate-fade-in">
           <div className="container px-4 py-6 space-y-4">
             {menuItems.map((item) => (
               <button

@@ -2,7 +2,7 @@ import { Linkedin, Mail, Phone, Sparkles } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-b from-card/30 to-background/50 backdrop-blur-sm overflow-hidden">
+    <footer className="relative bg-gradient-to-b from-secondary/10 to-white backdrop-blur-sm overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           <h3 className="text-3xl md:text-4xl font-bold">
-            <span className="bg-gradient-to-r from-primary via-purple-500 to-primary bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent">
               IA na Prática
             </span>
           </h3>
