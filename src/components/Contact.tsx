@@ -95,8 +95,8 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="group p-6 rounded-xl bg-muted/30 hover:bg-muted/50 transition-all duration-300 hover:scale-105 cursor-pointer"
                   >
-                    <div className="inline-flex p-3 rounded-xl bg-primary/10 group-hover:bg-primary/20 transition-colors mb-3">
-                      <Linkedin className="w-6 h-6 text-primary" />
+                    <div className="inline-flex p-3 rounded-xl bg-secondary/10 group-hover:bg-secondary/20 transition-colors mb-3">
+                      <Linkedin className="w-6 h-6 text-secondary" />
                     </div>
                     <div className="font-semibold mb-1">LinkedIn</div>
                     <div className="text-sm text-muted-foreground">
@@ -110,8 +110,8 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="group p-6 rounded-xl bg-muted/30 hover:bg-muted/50 transition-all duration-300 hover:scale-105 cursor-pointer"
                   >
-                    <div className="inline-flex p-3 rounded-xl bg-primary/10 group-hover:bg-primary/20 transition-colors mb-3">
-                      <Facebook className="w-6 h-6 text-primary" />
+                    <div className="inline-flex p-3 rounded-xl bg-secondary/10 group-hover:bg-secondary/20 transition-colors mb-3">
+                      <Facebook className="w-6 h-6 text-secondary" />
                     </div>
                     <div className="font-semibold mb-1">Facebook</div>
                     <div className="text-sm text-muted-foreground">
