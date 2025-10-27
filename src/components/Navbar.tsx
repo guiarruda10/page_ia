@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div
-            className="flex items-center gap-3 text-xl md:text-2xl font-bold cursor-pointer"
+            className="flex items-center gap-0 text-xl md:text-2xl font-bold cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
             <img
