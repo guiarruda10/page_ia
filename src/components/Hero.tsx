@@ -35,7 +35,7 @@ const Hero = () => {
 
           <h1 className="text-7xl sm:text-8xl md:text-8xl lg:text-8xl font-bold leading-tight">
             <span className="text-gradient animate-float">
-              Vamos por a IA na prática do seu negócio
+              IA na prática do seu negócio
             </span>
           </h1>
 
