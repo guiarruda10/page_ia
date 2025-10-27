@@ -42,9 +42,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div
-            className="text-xl md:text-2xl font-bold cursor-pointer"
+            className="flex items-center gap-3 text-xl md:text-2xl font-bold cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
+            <img
+              src="/logos/ia_na_pratica_logo.png"
+              alt="IA na Prática Logo"
+              className="h-10 md:h-14 w-auto"
+            />
             <span className="text-gradient">IA na Prática</span>
           </div>
 
