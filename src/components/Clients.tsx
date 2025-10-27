@@ -36,13 +36,6 @@ const Clients = () => {
       fallback: "⚡",
     },
     {
-      name: "Dom investimentos | Xp",
-      category: "Financeiro",
-      tier: "Enterprise",
-      logo: "/logos/logo-dom_xp.webp",
-      fallback: "📊",
-    },
-    {
       name: "+Pet",
       category: "Pet Shop",
       tier: "Growth",

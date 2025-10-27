@@ -41,7 +41,7 @@ const Portfolio = () => {
         "Investimento único",
         "Profissionais experientes",
         "Mapeamento e revisão detalhada",
-        "Proposta com modelo success fee",
+        "Proposta com modelo Success Fee",
       ],
       color: "secondary",
       gradient: "from-secondary/20 to-secondary/5",
